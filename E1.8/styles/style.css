@@ -1,0 +1,105 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-image: url("../images/Backgrounds_Blue_and_pink.jpg");
+    background-size: cover;
+    }
+
+#block-body{
+    width: 1150px;
+    margin: 0px auto;
+    height: auto;
+    }
+
+header{
+    width: 1150px;
+    height: 50px;
+    background-color: #101010;
+}
+
+.logo{
+    width: 200px;
+    height: 80px;
+    float: left;
+}
+.logo{
+    display: block;
+    margin-left: 10px;
+    margin-top: 5px;
+    font-size: 17px;
+    color: #0d6efd;
+}
+
+.navigation{
+    width: 530px;
+    height: 50px;
+    float: right;
+}
+.navigation ul li{
+    list-style: none;
+    float: left;
+    text-align: center;
+}
+.navigation ul li a{
+    display: block;
+    width: 175px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #0d6efd;
+    height: 50 px;
+    padding-top: 11px;
+    cursor: pointer;
+}
+.navigation ul li a:hover{
+    background-color: #6610f2;
+    color: #101010;
+    height: 39px;
+}
+
+.text-hobby{
+    float: left;
+    text-align: center;
+    width: 1100px;
+    padding-left: 150px;
+    padding-top: 60px;
+    font-size: 25px;
+}
+
+.text-hobby h3{
+    background-color: #BA55D3;
+    font-weight: bold;
+}
+
+.image-hobby{
+    width: 275px;
+    margin-right: 10px;
+}
+
+.text-about{
+    float: left;
+    width: 900px;
+    padding-left: 500px;
+    padding-top: 60px;
+    font-size: 25px;
+}
+
+.image-about{
+    width: 200px;
+    margin-right: 10px;
+}
+
+.text-contacts{
+    float: left;
+    width: 890px;
+    padding-left: 510px;
+    padding-top: 60px;
+    font-size: 30px;
+}
+
+.image-contacts{
+    width: 40px;
+    margin-right: 10px;
+}
